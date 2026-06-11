@@ -8,11 +8,6 @@ body{
 	text-wrap: pretty;
 }
 
-p{
-	margin: 0;
-	text-indent: 1em;
-}
-
 hr{
 	border: none;
 	border-top: 1px solid;
@@ -30,6 +25,10 @@ blockquote{
 	margin: 1em 2.5em;
 }
 
+h1{
+	font-variant: small-caps;
+}
+
 h1,
 h2,
 h3,
@@ -39,11 +38,15 @@ h6,
 hgroup{
 	break-after: avoid;
 	break-inside: avoid;
-	font-variant: small-caps;
 	hyphens: none;
 	-epub-hyphens: none;
 	margin: 3em 0;
 	text-align: center;
+}
+
+/* simulate h2 in an hgroup */
+hgroup h1 + p{
+  font-size: 1.5em;
 }
 
 /* simulate h3 in an hgroup */
@@ -118,7 +121,6 @@ blockquote cite i{
 	font-style: normal;
 }
 
-b,
 strong{
 	font-variant: small-caps;
 	font-weight: normal;
