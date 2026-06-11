@@ -82,8 +82,8 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/article-1-image-1.jpg" id="article-1-image-1.jpg" media-type="image/jpeg"/>
-		<item href="images/article-1-image-2.jpg" id="article-1-image-2.jpg" media-type="image/jpeg"/>
-		<item href="images/article-1-image-3.jpg" id="article-1-image-3.jpg" media-type="image/jpeg"/>
+		<item href="images/article-1-image-2.png" id="article-1-image-2.png" media-type="image/png"/>
+		<item href="images/article-1-image-3.png" id="article-1-image-3.png" media-type="image/png"/>
 		<item href="images/article-2-image-1.jpg" id="article-2-image-1.jpg" media-type="image/jpeg"/>
 		<item href="images/article-2-image-2.png" id="article-2-image-2.png" media-type="image/png"/>
 		<item href="images/article-2-image-3.png" id="article-2-image-3.png" media-type="image/png"/>
