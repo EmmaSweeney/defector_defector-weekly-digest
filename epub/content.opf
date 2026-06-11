@@ -11,6 +11,7 @@
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">PUBLISHER_NAME</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">displayTransformability</meta>
@@ -52,11 +53,70 @@
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/article-1-image-1.jpg" id="article-1-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-1-image-2.jpg" id="article-1-image-2.jpg" media-type="image/jpeg"/>
+		<item href="images/article-1-image-3.jpg" id="article-1-image-3.jpg" media-type="image/jpeg"/>
+		<item href="images/article-2-image-1.jpg" id="article-2-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-2-image-2.png" id="article-2-image-2.png" media-type="image/png"/>
+		<item href="images/article-2-image-3.png" id="article-2-image-3.png" media-type="image/png"/>
+		<item href="images/article-3-image-1.jpg" id="article-3-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-3-image-2.png" id="article-3-image-2.png" media-type="image/png"/>
+		<item href="images/article-3-image-3.png" id="article-3-image-3.png" media-type="image/png"/>
+		<item href="images/article-4-image-1.jpg" id="article-4-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-4-image-2.png" id="article-4-image-2.png" media-type="image/png"/>
+		<item href="images/article-4-image-3.png" id="article-4-image-3.png" media-type="image/png"/>
+		<item href="images/article-5-image-1.jpg" id="article-5-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-5-image-2.png" id="article-5-image-2.png" media-type="image/png"/>
+		<item href="images/article-5-image-3.png" id="article-5-image-3.png" media-type="image/png"/>
+		<item href="images/article-6-image-1.jpg" id="article-6-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-6-image-2.png" id="article-6-image-2.png" media-type="image/png"/>
+		<item href="images/article-6-image-3.jpg" id="article-6-image-3.jpg" media-type="image/jpeg"/>
+		<item href="images/article-6-image-4.jpg" id="article-6-image-4.jpg" media-type="image/jpeg"/>
+		<item href="images/article-6-image-5.png" id="article-6-image-5.png" media-type="image/png"/>
+		<item href="images/article-7-image-1.jpg" id="article-7-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-7-image-2.jpg" id="article-7-image-2.jpg" media-type="image/jpeg"/>
+		<item href="images/article-8-image-1.jpg" id="article-8-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-8-image-2.png" id="article-8-image-2.png" media-type="image/png"/>
+		<item href="images/article-8-image-3.png" id="article-8-image-3.png" media-type="image/png"/>
+		<item href="images/article-9-image-1.jpg" id="article-9-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-9-image-2.png" id="article-9-image-2.png" media-type="image/png"/>
+		<item href="images/article-10-image-1.jpg" id="article-10-image-1.jpg" media-type="image/jpeg"/>
+		<item href="images/article-10-image-2.png" id="article-10-image-2.png" media-type="image/png"/>
+		<item href="images/article-10-image-3.jpg" id="article-10-image-3.jpg" media-type="image/jpeg"/>
+		<item href="images/article-10-image-4.png" id="article-10-image-4.png" media-type="image/png"/>
 		<item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+		<item href="text/article-1.xhtml" id="article-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-2.xhtml" id="article-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-3.xhtml" id="article-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-4.xhtml" id="article-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-5.xhtml" id="article-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-6.xhtml" id="article-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-7.xhtml" id="article-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-8.xhtml" id="article-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-9.xhtml" id="article-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/article-10.xhtml" id="article-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword-1.xhtml" id="foreword-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword-2.xhtml" id="foreword-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/masthead.xhtml" id="masthead.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
+		<itemref idref="foreword-1.xhtml"/>
+		<itemref idref="foreword-2.xhtml"/>
+		<itemref idref="masthead.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="article-1.xhtml"/>
+		<itemref idref="article-2.xhtml"/>
+		<itemref idref="article-3.xhtml"/>
+		<itemref idref="article-4.xhtml"/>
+		<itemref idref="article-5.xhtml"/>
+		<itemref idref="article-6.xhtml"/>
+		<itemref idref="article-7.xhtml"/>
+		<itemref idref="article-8.xhtml"/>
+		<itemref idref="article-9.xhtml"/>
+		<itemref idref="article-10.xhtml"/>
 	</spine>
 </package>
