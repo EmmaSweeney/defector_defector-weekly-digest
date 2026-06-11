@@ -5,11 +5,14 @@
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>RIGHTS</dc:rights>
-		<dc:publisher id="publisher">PUBLISHER_NAME</dc:publisher>
-		<meta property="file-as" refines="#publisher">PUBLISHER_SORT</meta>
-		<meta property="se:url.homepage" refines="#publisher">PUBLISHER_URL</meta>
+		<dc:publisher id="publisher">Flaming Hydra</dc:publisher>
+		<meta property="file-as" refines="#publisher">Flaming Hydra</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://flaminghydra.com/books</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-		<meta property="a11y:certifiedBy">PUBLISHER_NAME</meta>
+		<meta property="a11y:certifiedBy">Flaming Hydra</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
@@ -22,33 +25,58 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Defector Weekly Digest</dc:title>
 		<meta property="file-as" refines="#title">Defector Weekly Digest</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Top stories from Defector, an employee-owned website covering sports, politics, TV, movies, science, and weird shit that happens on the internet.</dc:description>
 		<dc:language>en-US</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<dc:creator id="author">Defector</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.homepage" refines="#author">https://defector.com/</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<dc:creator id="article-author-1">Diana Moskovitz</dc:creator>
+		<meta property="file-as" refines="#article-author-1">Moskovitz, Diana</meta>
+		<meta property="se:url.homepage" refines="#article-author-1">https://defector.com/author/diana-moskovitz</meta>
+		<meta property="role" refines="#article-author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#article-author-1" scheme="marc:relators">wfw</meta>
+		<dc:creator id="article-author-2">Luis Paez-Pumar</dc:creator>
+		<meta property="file-as" refines="#article-author-2">Paez-Pumar, Luis</meta>
+		<meta property="se:url.homepage" refines="#article-author-2">https://defector.com/author/luis-paez-pumar</meta>
+		<meta property="role" refines="#article-author-2" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-3">Lauren Theisen</dc:creator>
+		<meta property="file-as" refines="#article-author-3">Theisen, Lauren</meta>
+		<meta property="se:url.homepage" refines="#article-author-3">https://defector.com/author/lauren-theisen</meta>
+		<meta property="role" refines="#article-author-3" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-4">Patrick Redford</dc:creator>
+		<meta property="file-as" refines="#article-author-4">Redford, Patrick</meta>
+		<meta property="se:url.homepage" refines="#article-author-4">https://defector.com/author/patrick-redford</meta>
+		<meta property="role" refines="#article-author-4" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-5">Matt Ribel</dc:creator>
+		<meta property="file-as" refines="#article-author-5">Ribel, Matt</meta>
+		<meta property="se:url.homepage" refines="#article-author-5">https://defector.com/author/matt-ribel</meta>
+		<meta property="role" refines="#article-author-5" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-6">David Roth</dc:creator>
+		<meta property="file-as" refines="#article-author-6">Roth, David</meta>
+		<meta property="se:url.homepage" refines="#article-author-6">https://defector.com/author/david-roth</meta>
+		<meta property="role" refines="#article-author-6" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-7">Dave McKenna</dc:creator>
+		<meta property="file-as" refines="#article-author-7">McKenna, Dave</meta>
+		<meta property="se:url.homepage" refines="#article-author-7">https://defector.com/author/dave-mckenna</meta>
+		<meta property="role" refines="#article-author-7" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-8">Abigail Segel</dc:creator>
+		<meta property="file-as" refines="#article-author-8">Segel, Abigail</meta>
+		<meta property="se:url.homepage" refines="#article-author-8">https://defector.com/author/abigail-segel</meta>
+		<meta property="role" refines="#article-author-8" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-9">Samer Kalaf</dc:creator>
+		<meta property="file-as" refines="#article-author-9">Kalaf, Samer</meta>
+		<meta property="se:url.homepage" refines="#article-author-9">https://defector.com/author/samer-kalaf</meta>
+		<meta property="role" refines="#article-author-9" scheme="marc:relators">aut</meta>
+		<dc:creator id="article-author-10">Ray Ratto</dc:creator>
+		<meta property="file-as" refines="#article-author-10">Ratto, Ray</meta>
+		<meta property="se:url.homepage" refines="#article-author-10">https://defector.com/author/ray-ratto</meta>
+		<meta property="role" refines="#article-author-10" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor">Maria Bustillos</dc:contributor>
+		<meta property="file-as" refines="#editor">Bustillos, Maria</meta>
+		<meta property="se:url.homepage" refines="#editor">https://mariabustillos.com/</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
