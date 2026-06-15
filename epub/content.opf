@@ -4,7 +4,7 @@
 		<dc:identifier id="uid">defector/defector-weekly-digest</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<dc:rights>RIGHTS</dc:rights>
+		<dc:rights>© Copyright 2026</dc:rights>
 		<dc:publisher id="publisher">Flaming Hydra</dc:publisher>
 		<meta property="file-as" refines="#publisher">Flaming Hydra</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://flaminghydra.com/books</meta>
